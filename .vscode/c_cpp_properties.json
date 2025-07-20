@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/include/GL",
+                "/usr/include/GLFW",
+                "/usr/include/glm"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
