@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/imu_services.dir/main.cpp.o -o imu_services  /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lGL -lGLEW 

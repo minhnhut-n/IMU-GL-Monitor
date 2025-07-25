@@ -1,3 +1,0 @@
-/home/mn/project/build/CMakeFiles/imu_services.dir
-/home/mn/project/build/CMakeFiles/edit_cache.dir
-/home/mn/project/build/CMakeFiles/rebuild_cache.dir
