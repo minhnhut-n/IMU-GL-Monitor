@@ -53,7 +53,7 @@ const char* vertexShaderSource = R"glsl(
 layout(location = 0) in vec3 aPos;
 uniform mat4 mvp;
 void main() {
-    gl_Position = mvp * vec4(aPos, 1.0);
+    gl_Position = mvp * vec4(aPos, 0.5);
 }
 )glsl";
 
@@ -62,10 +62,16 @@ const char* fragmentShaderSource = R"glsl(
 #version 330 core
 out vec4 FragColor;
 void main() {
-    FragColor = vec4(0.3, 0.7, 0.9, 1.0); // light blue
+    FragColor = vec4(0.6, 0.8, 1.0, 1.0); // soft blue
 }
 )glsl";
 
-
+const char* fragnentOutlining = R"glsl(
+#version 330 core
+out vec4 FragColor;
+void main() {
+    FragColor = vec4(0.0, 0.0, 0.0, 1.0); // dark night
+}
+)glsl";
 
 #endif
